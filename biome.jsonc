@@ -37,6 +37,28 @@
           }
         }
       }
+    },
+    {
+      "includes": ["**/*.mdx"],
+      "formatter": {
+        "enabled": true,
+        "lineWidth": 120,
+        "indentStyle": "space",
+        "indentWidth": 2
+      },
+      "javascript": {
+        "formatter": {
+          "jsxQuoteStyle": "double",
+          "quoteProperties": "asNeeded",
+          "trailingCommas": "es5",
+          "semicolons": "always",
+          "arrowParentheses": "always",
+          "bracketSpacing": true,
+          "bracketSameLine": false,
+          "quoteStyle": "double",
+          "attributePosition": "auto"
+        }
+      }
     }
   ],
   "assist": {
