@@ -36,6 +36,10 @@
   "[graphql]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
+  "[mdx]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
+  },
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.formatOnPaste": true,
   "emmet.showExpandedAbbreviation": "never",

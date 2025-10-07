@@ -84,7 +84,7 @@
     "pnpm": ">=9.15.4"
   },
   "lint-staged": {
-    "!(examples)/**/*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": [
+    "!(examples)/**/*.{js,jsx,ts,tsx,json,jsonc,css,scss,md}": [
       "pnpm dlx ultracite fix "
     ]
   }
